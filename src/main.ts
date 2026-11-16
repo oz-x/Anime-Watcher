@@ -190,7 +190,7 @@ const sidebar = h(
     libraryList,
   ),
   updateCard,
-  h("footer", { class: "side-foot" }, h("span", null, "por EvilRender23"), version),
+  h("footer", { class: "side-foot" }, h("span", null, "por Oz-X"), version),
 );
 
 // ---- Panel principal ----
