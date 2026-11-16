@@ -2,11 +2,11 @@
 # Instala o actualiza Anime Watcher en Mac o en Linux compilándolo desde una rama del repositorio
 # (main por defecto). Es el equivalente de instalar.ps1.
 #
-#   git clone https://github.com/evilrender23/Anime-Watcher
+#   git clone https://github.com/oz-x/Anime-Watcher
 #   bash Anime-Watcher/instalar.sh [--repo URL|RUTA] [--rama main] [--destino CARPETA] [--bin CARPETA]
 #
 # O en una línea:
-#   curl -fsSL https://raw.githubusercontent.com/evilrender23/Anime-Watcher/main/instalar.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/oz-x/Anime-Watcher/main/instalar.sh | bash
 #
 # Desde un clon, sin --repo, instala desde el origin de ese clon.
 #
@@ -39,7 +39,7 @@ case "$(uname -s)" in
     *) echo "Este instalador es para Mac y Linux; en Windows, usa instalar.ps1." >&2; exit 2 ;;
 esac
 
-REPO='https://github.com/evilrender23/Anime-Watcher'
+REPO='https://github.com/oz-x/Anime-Watcher'
 RAMA='main'
 if $LINUX; then DESTINO="${XDG_DATA_HOME:-$HOME/.local/share}/AnimeWatcher"; else DESTINO="$HOME/Library/Application Support/AnimeWatcher"; fi
 BIN="$HOME/.local/bin"

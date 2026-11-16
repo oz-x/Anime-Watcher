@@ -4,7 +4,7 @@ version = "1.0.4"
 description = "Anime Watcher: ver animé subtitulado al español, con interfaz gráfica para Windows, macOS y Linux."
 edition = "2024"
 license = "GPL-3.0-only"
-repository = "https://github.com/evilrender23/Anime-Watcher"
+repository = "https://github.com/oz-x/Anime-Watcher"
 
 [build-dependencies]
 tauri-build = { version = "2", features = [] }

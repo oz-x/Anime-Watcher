@@ -61,7 +61,7 @@ jobs:
           - **Windows:** si aparece SmartScreen, pulsa **Más información → Ejecutar de todas formas**.
 
           Esta copia avisa cuando hay un release nuevo. Si prefieres que se compile y actualice sola
-          desde `main`, instálala con el comando del [README](https://github.com/evilrender23/Anime-Watcher#instalación).
+          desde `main`, instálala con el comando del [README](https://github.com/oz-x/Anime-Watcher#instalación).
           EOF
           fi
           echo "id=$(gh release view "$TAG" --json databaseId --jq .databaseId)" >> "$GITHUB_OUTPUT"

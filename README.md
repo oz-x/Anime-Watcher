@@ -33,13 +33,13 @@ Un solo comando descarga el código de la rama `main`, lo compila en tu equipo y
 **Windows** (PowerShell):
 
 ```powershell
-irm https://raw.githubusercontent.com/evilrender23/Anime-Watcher/main/instalar.ps1 | iex
+irm https://raw.githubusercontent.com/oz-x/Anime-Watcher/main/instalar.ps1 | iex
 ```
 
 **macOS y Linux:**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/evilrender23/Anime-Watcher/main/instalar.sh | bash
+curl -fsSL https://raw.githubusercontent.com/oz-x/Anime-Watcher/main/instalar.sh | bash
 ```
 
 También desde un clon: `bash Anime-Watcher/instalar.sh` o `powershell -ExecutionPolicy Bypass -File Anime-Watcher\instalar.ps1`.
@@ -54,7 +54,7 @@ Opciones: `--repo`, `--rama`, `--destino` y `--bin` (en Windows `-Repo`, `-Rama`
 
 ### Sin compilar: instaladores de Releases
 
-En [Releases](https://github.com/evilrender23/Anime-Watcher/releases/latest) están los instaladores ya compilados para **Windows** (`.exe` / `.msi`) y **macOS** (`.dmg` para Apple Silicon e Intel). No están firmados: en Mac, ábrela la primera vez con clic derecho → **Abrir**; en Windows, si sale SmartScreen, **Más información → Ejecutar de todas formas**. Estas copias no se compilan solas: avisan cuando hay un release nuevo y abren su página para descargarlo.
+En [Releases](https://github.com/oz-x/Anime-Watcher/releases/latest) están los instaladores ya compilados para **Windows** (`.exe` / `.msi`) y **macOS** (`.dmg` para Apple Silicon e Intel). No están firmados: en Mac, ábrela la primera vez con clic derecho → **Abrir**; en Windows, si sale SmartScreen, **Más información → Ejecutar de todas formas**. Estas copias no se compilan solas: avisan cuando hay un release nuevo y abren su página para descargarlo.
 
 ¿Venías de **anicli-es**? Al abrir Anime Watcher por primera vez se copian tu historial y tus ajustes. Después puedes desinstalar anicli-es.
 
